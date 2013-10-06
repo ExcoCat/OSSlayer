@@ -18,5 +18,6 @@ public interface STask {
     public boolean needsFinisher();
     public int getFinisher();
     public String getMaster();
+    public int[] getRequiredItems();
 
 }
